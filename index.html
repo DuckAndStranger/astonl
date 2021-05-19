@@ -16,12 +16,6 @@
 		}
 		
 		#container {
-			width: 255px;
-			height: 588px;
-			padding: 0px;
-			border-width: 0px;
-			border-style: none;
-			cursor: auto;
 			display: inline-block; /* scale with canvas */
 			vertical-align: top; /* prevent extra height */
 			position: relative; /* root for absolutely positioned overlay */
@@ -33,12 +27,6 @@
 		
 
 		#canvas {
-			width: 255px;
-			height: 588px;
-			padding: 0px;
-			border-width: 0px;
-			border-style: none;
-			cursor: auto;
 			display: block;
 			margin: 0;
 			color: white;
@@ -141,7 +129,7 @@
 		<font size="6" color="black" face="Arial"><br><b>Астероиды</b><br><br> </font>
 	</div>
 	<div id="container">
-	<canvas id='canvas'>
+	<canvas id="canvas" width="288" height="512" style="width: 288px; height: 512px; padding: 0px; border-width: 0px; border-style: none; cursor: auto;" tabindex="0">
 		HTML5 canvas appears to be unsupported in the current browser.<br />
 		Please try updating or use a different browser.
 	</canvas>
