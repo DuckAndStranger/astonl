@@ -2,9 +2,7 @@
 <html xmlns='http://www.w3.org/1999/xhtml' lang='' xml:lang=''>
 <head>
 	<meta charset='utf-8' />
-	<meta name='viewport' content='width=device-width, user-scalable=no' />
-	<link id='-gd-engine-icon' rel='icon' type='image/png' href='favicon.png' />
-	<title>Астероиды</title>
+	<title>▶️ >запитать компьютер</title>
 	<style type='text/css'>
 
 		body {
@@ -13,7 +11,8 @@
 			border: 0 none;
 			padding: 0;
 			text-align: center;
-			background-color: black;
+			background-color: #ffffff;
+			font-family: 'Noto Sans', Arial, sans-serif;
 		}
 		
 		#container {
@@ -126,10 +125,15 @@
 </head>
 <body>
 <div>
-		<font size="6" color="white" face="Arial"><br><b>тест2 </font>
+		<font size="6" color="black" face="Arial"><br><b>▶️ >запитать компьютер</b><br><br> </font>
 	</div>
 	<div>
-		<font size="2" color="#696a6a" face="Times New Roman">Тест</font>
+		<font size="2" color="#696a6a" face="Times New Roman">(Поддерживаются мышь и устройства с тачскрином.)<br>
+		УПРАВЛЕНИЕ:<br>
+		WASD, стрелки — перемещение,<br>
+		Enter — подтвердить, 
+		Esc — назад.<br>
+		 <br></font>
 	</div>
 	<div id="container">
 	<canvas id='canvas'>
@@ -149,6 +153,17 @@
 			<div></div>
 		</div>
 		<div id='status-notice' class='godot' style='display: none;'></div>
+	</div>
+	</div>
+	<div>
+		<img src="line.png">
+	</div>
+	<div>
+		<font size="5" color="black" face="Times New Roman"><a href="https://vk.com/@paintquest-232" title="https://vk.com/@paintquest-232" >&#9668; НАЗАД</a> | <a href="https://vk.com/@paintquest-233" title="https://vk.com/@paintquest-233" >ОБРАТНО НА СТРАНИЦУ</a> | <a href="https://vk.com/@paintquest-234" title="https://vk.com/@paintquest-234" >ВПЕРЕД &#9658</a> <br>
+		<a href="https://vk.com/@paintquest-001" title="https://vk.com/@paintquest-001" >&#8617;&#65039; В НАЧАЛО</a></cite></font>
+	</div>
+	<div>
+		<img src="line.png">
 	</div>
 
 	<script type='text/javascript' src='index.js'></script>
@@ -184,10 +199,14 @@
 				var scale = window.devicePixelRatio || 1;
 				var width = window.innerWidth;
 				var height = window.innerHeight;
-				canvas.width = width * scale;
-				canvas.height = height * scale;
-				canvas.style.width = width + "px";
-				canvas.style.height = height + "px";
+				//canvas.width = width * scale;
+				//canvas.height = height * scale;
+				//canvas.style.width = width +"px";
+				//canvas.style.height = height +"px";
+				canvas.width = 800;
+				canvas.height = 600;
+				canvas.style.width = 800 +"px";
+				canvas.style.height = 600 +"px";
 			}
 			animationCallbacks.push(adjustCanvasDimensions);
 			adjustCanvasDimensions();
@@ -282,4 +301,5 @@
 	//]]></script>
 </body>
 </html>
+
 
