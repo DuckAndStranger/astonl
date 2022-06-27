@@ -1,1 +1,1 @@
-# schoolc
+Small scroller game.
